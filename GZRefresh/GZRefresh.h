@@ -46,7 +46,7 @@ typedef void(^refreshBlock)();
 - (void)beginHeardRefresh;
 
 /**
- 结束头部刷新
+ 结束刷新
  */
 - (void)endRefresh;
 
