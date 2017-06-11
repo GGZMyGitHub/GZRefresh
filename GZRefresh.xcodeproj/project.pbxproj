@@ -13,6 +13,8 @@
 		180462171EECFAC100C565D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180462151EECFAC100C565D3 /* Main.storyboard */; };
 		180462191EECFAC100C565D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180462181EECFAC100C565D3 /* Assets.xcassets */; };
 		1804621C1EECFAC100C565D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804621A1EECFAC100C565D3 /* LaunchScreen.storyboard */; };
+		180462251EECFB0A00C565D3 /* GZRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 180462241EECFB0A00C565D3 /* GZRefresh.m */; };
+		180462271EECFD7800C565D3 /* WJRefreshArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180462261EECFD7800C565D3 /* WJRefreshArrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		180462181EECFAC100C565D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1804621B1EECFAC100C565D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1804621D1EECFAC100C565D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180462231EECFB0A00C565D3 /* GZRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZRefresh.h; sourceTree = "<group>"; };
+		180462241EECFB0A00C565D3 /* GZRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZRefresh.m; sourceTree = "<group>"; };
+		180462261EECFD7800C565D3 /* WJRefreshArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WJRefreshArrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		1804620B1EECFAC100C565D3 /* GZRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				180462261EECFD7800C565D3 /* WJRefreshArrow@2x.png */,
+				180462231EECFB0A00C565D3 /* GZRefresh.h */,
+				180462241EECFB0A00C565D3 /* GZRefresh.m */,
 				1804620F1EECFAC100C565D3 /* AppDelegate.h */,
 				180462101EECFAC100C565D3 /* AppDelegate.m */,
 				180462121EECFAC100C565D3 /* ViewController.h */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1804621C1EECFAC100C565D3 /* LaunchScreen.storyboard in Resources */,
+				180462271EECFD7800C565D3 /* WJRefreshArrow@2x.png in Resources */,
 				180462191EECFAC100C565D3 /* Assets.xcassets in Resources */,
 				180462171EECFAC100C565D3 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +161,7 @@
 			files = (
 				180462141EECFAC100C565D3 /* ViewController.m in Sources */,
 				180462111EECFAC100C565D3 /* AppDelegate.m in Sources */,
+				180462251EECFB0A00C565D3 /* GZRefresh.m in Sources */,
 				1804620E1EECFAC100C565D3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
